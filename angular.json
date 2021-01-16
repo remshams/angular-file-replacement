@@ -60,6 +60,20 @@
           },
           "configurations": {
             "production": {
+              "assets": [
+                "src/favicon.ico",
+                "src/assets",
+                {
+                  "input": "src/configurations/prod",
+                  "output": "configuration/",
+                  "glob": "*.json"
+                },
+                {
+                  "input": "src/configurations",
+                  "output": "configuration/",
+                  "glob": "README.md"
+                }
+              ],
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -87,6 +101,20 @@
               ]
             },
             "dev": {
+              "assets": [
+                "src/favicon.ico",
+                "src/assets",
+                {
+                  "input": "src/configurations/dev",
+                  "output": "configuration/",
+                  "glob": "*.json"
+                },
+                {
+                  "input": "src/configurations",
+                  "output": "configuration/",
+                  "glob": "README.md"
+                }
+              ],
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -95,6 +123,20 @@
               ]
             },
             "qa": {
+              "assets": [
+                "src/favicon.ico",
+                "src/assets",
+                {
+                  "input": "src/configurations/qa",
+                  "output": "configuration/",
+                  "glob": "*.json"
+                },
+                {
+                  "input": "src/configurations",
+                  "output": "configuration/",
+                  "glob": "README.md"
+                }
+              ],
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
