@@ -85,6 +85,22 @@
                   "maximumError": "4kb"
                 }
               ]
+            },
+            "dev": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.dev.ts"
+                }
+              ]
+            },
+            "qa": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.qa.ts"
+                }
+              ]
             }
           }
         },
@@ -96,6 +112,12 @@
           "configurations": {
             "production": {
               "browserTarget": "file-replacement:build:production"
+            },
+            "dev": {
+              "browserTarget": "file-replacement:build:dev"
+            },
+            "qa": {
+              "browserTarget": "file-replacement:build:qa"
             }
           }
         },
