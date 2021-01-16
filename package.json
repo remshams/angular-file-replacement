@@ -7,6 +7,9 @@
     "start:dev": "ng serve --configuration=dev",
     "start:qa": "ng serve --configuration=qa",
     "build": "ng build",
+    "build:dev": "ng build --configuration=dev",
+    "build:qa": "ng build --configuration=qa",
+    "build:prod": "ng build --configuration=production",
     "lint": "ng lint"
   },
   "private": true,
