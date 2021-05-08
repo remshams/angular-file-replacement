@@ -1,6 +1,6 @@
 # Assets based file replacement
 
-Examplre repository for assets based angular file replacement
+Examplre repository for assets based [angular file replacement](https://dev.to/remshams/replacing-configuration-files-in-angular-builds-based-on-build-targets-28jm)
 
 ## Development server
 
